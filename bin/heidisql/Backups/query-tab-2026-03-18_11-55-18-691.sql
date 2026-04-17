@@ -1,0 +1,1 @@
+SHOW CREATE PROCEDURE get_store_stock;

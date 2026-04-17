@@ -1,0 +1,49 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+127.0.0.1  test.tenant.test
+127.0.0.1  lori.tenant.test
+127.0.0.1  ssss.tenant.test
+127.0.0.1      admin.test           #laragon magic!   
+127.0.0.1      admindek.test        #laragon magic!   
+127.0.0.1      adminthemelaravel.test #laragon magic!   
+127.0.0.1      clinic.test          #laragon magic!   
+127.0.0.1      CRMSleekhive.test    #laragon magic!   
+127.0.0.1      crmssleekhive.test   #laragon magic!   
+127.0.0.1      erpsinnovative.test  #laragon magic!   
+127.0.0.1      InfoShop.test        #laragon magic!   
+127.0.0.1      invoicing-portal.test #laragon magic!   
+127.0.0.1      kaizenso_bms.test    #laragon magic!   
+127.0.0.1      karyin.test          #laragon magic!   
+127.0.0.1      karyin-crm.test      #laragon magic!   
+127.0.0.1      laravel-pos-system-ecommerce.test #laragon magic!   
+127.0.0.1      naturetech.test      #laragon magic!   
+127.0.0.1      pos.test             #laragon magic!   
+127.0.0.1      pos-crm.test         #laragon magic!   
+127.0.0.1      project-management-system.test #laragon magic!   
+127.0.0.1      realestate.test      #laragon magic!   
+127.0.0.1      sales_force.test     #laragon magic!   
+127.0.0.1      school.test          #laragon magic!   
+127.0.0.1      Store.test           #laragon magic!   
+127.0.0.1      Store2.test          #laragon magic!   
+127.0.0.1      Tenant.test          #laragon magic!   
+127.0.0.1      thedream.test        #laragon magic!   
+127.0.0.1      twilio-voice-routing.test #laragon magic!   

@@ -1,0 +1,15 @@
+2026-02-09 12:26:25: Init DataDir at: D:\laragon\data\mysql-8
+2026-02-10 09:29:58: nothing
+2026-02-11 10:09:49: nothing
+2026-03-19 11:54:56: nothing
+2026-03-19 11:55:36: nothing
+2026-03-19 17:31:36: Graceful shutdown failed!!! Did you change the root's password? - trying to force it shutdown...
+ERROR: 
+2026-03-25 09:49:32: nothing
+2026-03-25 09:49:35: nothing
+2026-03-25 09:49:45: nothing
+2026-03-25 17:59:18: nothing
+2026-03-31 18:29:02: Graceful shutdown failed!!! Did you change the root's password? - trying to force it shutdown...
+ERROR: 
+2026-04-10 23:44:02: Graceful shutdown failed!!! Did you change the root's password? - trying to force it shutdown...
+ERROR: 

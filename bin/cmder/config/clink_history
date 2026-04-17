@@ -1,0 +1,373 @@
+|CTAG_1663167284_18455859_4204_0
+|d project\
+|hp artisan migrate
+|omposer install 
+cd project\
+|omposer install 
+|pm install 
+|hp artisan migrate 
+|hp artisan db:seed
+|pm run build 
+|hp artisan key:generate
+|d Tenant\
+|omposer install 
+php artisan  migrate 
+|hp artisan db:seed
+|hp artisan queue:work --queue=default
+|hp artisan migrate:refresh
+|hp artisan migrate:refresh
+|hp artisan migrate:refresh
+|hp artisan db:seed
+|hp artisan queue:work --queue=default
+|hp artisan migrate:refresh
+|hp artisan db:seed
+php artisan queue:work --queue=default
+|hp artisan queue:work
+|hp artisan queue:work
+|hp artisan queue:work
+|hp artisan tinker
+|hp artisan tinker
+|hp artisan tinker
+|hp artisan queue:work
+# Delete old failed tenant
+|hp artisan tinker
+# Start queue worker
+|hp artisan queue:work
+|hp artisan migrate:refresh
+|hp artisan db:seed
+|hp artisan queue:work
+|hp artisan migrate:refresh
+|hp artisan db:seed
+|hp artisan queue:work
+|hp artisan migrate:refresh
+|hp artisan db:seed
+|hp artisan queue:work
+|hp artisan queue:failed
+php artisan queue:retry all
+|hp artisan migrate:refresh
+php artisan queue:failed
+|hp artisan db:seed
+|hp artisan migrate:refresh
+|hp artisan db:seed
+|hp artisan queue:work
+|hp artisan migrate:refresh
+|hp artisan db:seed
+|hp artisan queue:work
+|hp artisan migrate:refresh
+|hp artisan db:seed
+|hp artisan optimize:clear
+|hp artisan queue:work
+|hp artisan migrate:refresh
+|hp artisan optimize:clear
+|hp artisan db:seed
+|hp artisan queue:work
+|hp artisan tinker
+# Drop the broken databases
+# In MySQL client run:
+DROP DATABASE IF EXISTS tenantb0d05098_de38_4be6_8a4b_f39e4864e861;
+DROP DATABASE IF EXISTS tenant6a46fae9_4b47_40fe_bf81_c15dadef1474;
+php artisan migrate:refresh
+|hp artisan db:seed
+|hp artisan queue:work
+cd  ..
+ls
+|d laravel-multi-tenant\
+|omposer install 
+|pm install 
+|pm run build 
+|d Tenant\
+|hp artisan migrate:refresh 
+|hp artisan db:seed
+|hp artisan queue:work
+|hp artisan migrate:refresh 
+|hp artisan migrate:refresh 
+|hp artisan migrate:refresh --seed
+|hp artisan queue:work
+|hp artisan queue:work
+|hp artisan migrate:refresh --seed
+|hp artisan queue:work
+|hp artisan migrate:refresh --seed
+|hp artisan optimize:clear
+|hp artisan optimize:clear
+|hp artisan queue:work
+|hp artisan optimize:clear
+|hp artisan queue:work
+|hp artisan queue:work
+|hp artisan optimize:clear
+|hp artisan queue:work
+|d Tenant\
+|hp artisan migrate:refresh --seed
+|hp artisan optimize:clear
+|d Tenant\
+|hp artisan queue:work
+|d Tenant\
+|hp artisan optimize:clear
+|hp artisan migrate:refresh 
+|hp artisan migrate:refresh --seed
+|hp artisan queue:work
+|hp artisan tinker
+|hp artisan tinker
+php php artisan config:clear
+php artisan cache:clear
+|hp artisan route:list
+|:\laragon\www\Tenant
+|� php artisan route:list
+| GET|HEAD   / ........................................................................................................................................ home
+| GET|HEAD   login ............................................................................................ login › Central\AuthController@showLoginForm
+| POST       login ............................................................................................. login.submit › Central\AuthController@login
+| GET|HEAD   register ................................................................. register › Central\TenantRegistrationController@showRegistrationForm
+| POST       register ...................................................................... register.submit › Central\TenantRegistrationController@register
+| GET|HEAD   storage/{path} .................................................................................................................. storage.local
+| GET|HEAD   stripe/payment/{id} ................................................................ cashier.payment › Laravel\Cashier › PaymentController@show
+| POST       stripe/webhook ............................................................ cashier.webhook › Laravel\Cashier › WebhookController@handleWebhook
+| GET|HEAD   tenancy/assets/{path?} ................................................... stancl.tenancy.asset › Stancl\Tenancy › TenantAssetsController@asset
+| GET|HEAD   tenant/{tenant}/creating ...................................................... tenant.creating › Central\TenantRegistrationController@creating
+| GET|HEAD   tenant/{tenant}/status ....................................................... tenant.status › Central\TenantRegistrationController@checkStatus
+| GET|HEAD   up ............................................................................................................................................
+D:\laragon\www\Tenant
+λ php artisan route:list
+  GET|HEAD   / ........................................................................................................................................ home
+  GET|HEAD   login ............................................................................................ login › Central\AuthController@showLoginForm
+  POST       login ............................................................................................. login.submit › Central\AuthController@login
+  GET|HEAD   register ................................................................. register › Central\TenantRegistrationController@showRegistrationForm
+  POST       register ...................................................................... register.submit › Central\TenantRegistrationController@register
+  GET|HEAD   storage/{path} .................................................................................................................. storage.local
+  GET|HEAD   stripe/payment/{id} ................................................................ cashier.payment › Laravel\Cashier › PaymentController@show
+  POST       stripe/webhook ............................................................ cashier.webhook › Laravel\Cashier › WebhookController@handleWebhook
+  GET|HEAD   tenancy/assets/{path?} ................................................... stancl.tenancy.asset › Stancl\Tenancy › TenantAssetsController@asset
+  GET|HEAD   tenant/{tenant}/creating ...................................................... tenant.creating › Central\TenantRegistrationController@creating
+  GET|HEAD   tenant/{tenant}/status ....................................................... tenant.status › Central\TenantRegistrationController@checkStatus
+  GET|HEAD   up ............................................................................................................................................
+|hp artisan tinker
+|hp artisan tinker
+|hp artisan tinker
+php artisan tinker
+|hp artisan route:list
+|hp artisan config:clear
+|hp artisan route:list
+php artisan migrate --database=tenant --path=database/migrations/tenant --force
+php artisan tenants:migrate
+cd laravel-multi-tenant\
+|hp artisan key:generate
+|hp artisan migrate 
+|hp artisan db:seed
+|hp artisan db:seed
+|hp artisan db:seed
+php artisan tenants:create-test
+|d ..
+cd  Tenant\
+php artisan migrate:refesh --seed
+php artisan migrate:refresh --seed
+php artisan route:list
+|hp artisan queue:work
+|hp artisan migrate 
+cd  crm\
+|omposer install 
+npm  install 
+|pm run prod 
+|pm run prod 
+|pm run prod 
+npm run prod 
+cd Tenant\
+php artisan queue:work
+|d pos\
+|omposer install 
+|d  pos\
+|omposer install 
+|d  pos\
+|omposer install 
+cd  pos\
+|omposer install 
+|hp artisan migrate 
+|hp artisan db:seed --class=CreateAdminUserSeeder
+|hp artisan migrate:refresh 
+php artisan db:seed --class=PermissionTableSeeder
+php artisan db:seed --class=CreateAdminUserSeeder
+|d ..
+cd apperp\
+|omposer install 
+cd  apperp\
+|omposer install 
+|hp artisan migrate 
+|hp artisan migrate 
+cd pos\
+|hp artisan migrate 
+|d laravel-pos-system-ecommerce\
+|omposer install 
+|d ..
+|d  InfoShop\
+|omposer install 
+|d InfoShop\
+|omposer install 
+|hp artisan key:generate
+|hp artisan migrate 
+npm install 
+npm run build 
+php artisan migrate --seed
+|hp artisan storage:link
+npm run dev
+|hp artisan serve
+cd InfoShop\
+|hp artisan serve
+|d ..
+|d SoftCRM\
+|omposer install 
+|d ..
+|d laravel-crm\
+|omposer install 
+|omposer install 
+cd  InfoShop\
+|hp artisan serve
+cd laravel-crm\
+|omposer install 
+|omposer install 
+|hp artisan migrate 
+|hp artisan db:seed
+|hp artisan key:generate
+cd SoftCRM\
+|omposer install 
+php artisan mirate 
+|hp artisan migrate
+|hp artisan key:generate
+|hp artisan db:seed
+|omposer install
+|hp artisan serve
+cd ..
+laravel-pos-system-ecommerce\
+|omposer install 
+|d laravel-pos-system-ecommerce\
+|omposer install
+|d laravel-pos-system-ecommerce\
+|omposer install
+|omposer install
+|omposer install
+composer install
+In Git.php line 471:
+  Failed to execute git clone --mirror -- https://git...pus:x-oauth-basic@github.com/cinetpay/cinetpay-php-legacy.git C:/Users/user/AppData/Local/Composer/vcs/https---github.com-cinetpay-cinetpay-php-legacy.g
+  it/
+  Cloning into bare repository 'C:/Users/user/AppData/Local/Composer/vcs/https---github.com-cinetpay-cinetpay-php-legacy.git'...
+  remote: Repository not found.
+composer require cinetpay/cinetpay
+composer require cinetpay/cinetpay-php
+composer config --global github-oauth.github.com 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
+composer clear-cache
+composer update
+|omposer install 
+|omposer install 
+|omposer install 
+|hp artisan migrate 
+php artisan key:generate
+php artisan storge:lkin
+php artisan storge:link
+|hp artisan storage:link
+cd laravel-pos-system-ecommerce\
+composer require endroid/qr-code
+|d sales_force\
+|omposer install 
+|d sales_force\
+|hp artisan serve
+cd  s
+|d sales_force\
+|hp artisan serev
+|hp artisan serve
+|omposer install 
+cd sales_force\
+|omposer install 
+|hp artisan serve
+composer install 
+|hp artisan serve
+cd  sales_force\
+php artisan server.php 
+php artisan server
+|hp artisan serve
+|d project-management-system\
+composer require spatie/laravel-medialibrary 
+|hp artisan migrate 
+|hp artisan migrate:rollback
+|hp artisan migrate 
+|hp artisan migrate:rollback
+|hp artisan migrate 
+|hp artisan migrate:rollback
+|hp artisan migrate 
+|hp artisan db:seed
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate:rollback
+|hp artisan migrate:rollback
+|hp artisan migrate:rollback
+|hp artisan migrate:rollback
+|hp artisan migrate 
+|hp artisan db:seed
+|hp artisan migrate:refresh 
+|hp artisan db:seed
+|hp artisan migrate 
+php artisan vendor:publish --provider="Spatie\MediaLibrary\MediaLibraryServiceProvider" --tag="medialibrary-migrations"
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate 
+|d  project-management-system\
+|hp artisan migrate 
+|hp artisan migrate:rollback
+|hp artisan migrate 
+php artisna storage:link
+php artisan storage:link
+php artisan make:seeder BranchSedeer
+|hp artisan migrate:refresh 
+|hp artisan migrate:refresh 
+|hp artisan migrate:refresh 
+|hp artisan migrate:refresh 
+|hp artisan migrate:refresh 
+|hp artisan migrate:refresh 
+|hp artisan migrate:refresh 
+|hp artisan db:seed
+php artisan config:cache
+php artisan optimize:clear
+|d project-management-system\
+php artisan migrate
+|hp artisan migrate 
+php artisan serev
+|hp artisan serve
+|d project-management-system\
+|hp artisan migrate 
+|d project-management-system\
+|hp artisan serve
+|d project-management-system\
+composer require beyondcode/laravel-websockets
+|d project-management-system\
+|hp artisan serve
+cd  project-management-system\
+|hp artisan migrate 
+|hp artisan migrate:rollback
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate 
+|hp artisan migrate:rollback
+|hp artisan migrate:rollback
+|hp artisan migrate:rollback
+|hp artisan migrate:rollback
+|hp artisan migrate:rollback
+|hp artisan migrate:rollback
+|hp artisan migrate:rollback
+php artisan migrate:rollback
+php artisan migrate 
+php artisan migrate:seed
+|hp artisan db:seed
+|hp artisan db:seed --class=MenuItemSeeder
+|hp artisan db:seed --class=MenuItemSeeder
+|hp artisan db:seed --class=MenuItemSeeder
+php artisan db:seed --class=PermissionSeeder
+php artisan db:seed --class=MenuItemSeeder
+php artisan migrate:refresh 
+php artisan db:seed
+php artisan serve
+cd project-management-system\
+composer require tymon/jwt-auth
+php artisan jwt:secret
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+php artisan config:clear
